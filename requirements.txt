@@ -1,0 +1,22 @@
+# --- Core LLM ---
+openai>=1.50.0,<2.0
+
+# --- LangGraph orchestration (langgraph_impl only) ---
+langgraph>=0.2.50,<0.3
+
+# --- Document loaders ---
+python-docx>=1.1.0,<2.0
+openpyxl>=3.1.0,<4.0
+
+# --- Config ---
+python-dotenv>=1.0.1,<2.0
+
+# --- Experiment harness / stats ---
+pandas>=2.2.0,<3.0
+numpy>=1.26.0,<2.0
+scipy>=1.13.0,<2.0
+
+# --- RAGAS evaluation ---
+ragas>=0.2.0,<0.3
+datasets>=2.19.0,<3.0
+langchain-openai>=0.2.0,<0.3
